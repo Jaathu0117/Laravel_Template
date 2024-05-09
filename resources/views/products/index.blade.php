@@ -28,6 +28,7 @@
        <td>Rs.{{$product->mrp}}</td>
        <td>Rs.{{$product->price}}</td>
        <td>
+        <a href="products/{{$product->id}}/show" class="btn btn-dark btn-sm"><i class="bi bi-eye"></i></a>
          <a href="products/{{$product->id}}/edit" class="btn btn-dark btn-sm"><i class="bi bi-pencil-square"></i></a>
          <a href="products/{{$product->id}}/delete" onclick="return confirm('Are you sure you want to Delete')"    class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></a>
        </td>
